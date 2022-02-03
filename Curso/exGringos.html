@@ -22,7 +22,7 @@
             var res = window.document.querySelector('div#res')
             var pais = String(country.value)
             
-            res.innerHTML = `<p>Como o seu país de origem é ${pais}..</p>`
+            res.innerHTML = `<p>Como o seu país de origem é <strong>${pais}</strong>..</p>`
 
             if (pais == "Brasil") {
                 res.innerHTML += 'Você também é Brasileiro, assim como eu!'
